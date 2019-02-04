@@ -1,0 +1,32 @@
+{
+  "name": "demo-express-ts-mocha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --compilers ts:ts-node/register 'test/**/*.ts' ",
+    "compile": "rimraf dist/ && tsc",
+    "start": "node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "express": "^4.16.4",
+    "method-override": "^3.0.0",
+    "mocha": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/chai-http": "^3.0.5",
+    "@types/express": "^4.16.1",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.12.21",
+    "rimraf": "^2.6.3",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.1"
+  }
+}
