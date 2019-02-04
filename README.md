@@ -3,12 +3,12 @@
 
 ## To compile the project
 
-> **Note:** npm run compile
+>  npm run compile
 
 ## To compile the project (after the compile)
 
-> **Note:** npm run start
+>  npm run start
 
 ## To test the project
 
-> **Note:** npm run test
+>  npm run test
